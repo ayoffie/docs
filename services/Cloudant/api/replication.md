@@ -32,6 +32,8 @@ you must replicate in both directions.
 This means that you must replicate from `database1` to `database2`,
 and separately from `database2` to `database1`.
 
+Start with a sample database, take your pick:  https://examples.cloudant.com/animaldb or https://examples.cloudant.com/movies-demo 
+
 ## Important notes
 
 Replications can severely impact the performance of a Cloudant cluster.
