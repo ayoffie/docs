@@ -64,8 +64,8 @@ follow these steps:
     {:codeblock}
 3.  Create applications that connect to the service instance,
     and which use the service credentials.
-    These applications can be created by using various environments,
-    including:
+    If you're not ready to connect your application to Cloudant, start by copying one of our sample databases:  https://examples.cloudant.com/animaldb or https://examples.cloudant.com/movies-demo (see our [guide on database replication](https://console.ng.bluemix.net/docs/services/Cloudant/guides/replication_guide.html#replication))
+    Any language that speaks to HTTP can speak to Cloudant. To make it even easier to build your application in your language of choice, Cloudant offers full technical support of select libraries and frameworks:
     -   [Mobile platforms](libraries/supported.html#mobile)
     -   [Java](libraries/supported.html#java)
     -   [Node.js](libraries/supported.html#node-js)
